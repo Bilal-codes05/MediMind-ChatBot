@@ -34,6 +34,7 @@ chunk_size=create_chunks(extracted_data=documnts)
 # Create Vector Embeddings
 def get_embedd_model():
     embedding_model=HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+    
     return embedding_model
 
 embeddig_model=get_embedd_model()
