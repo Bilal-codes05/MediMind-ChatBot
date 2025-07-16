@@ -103,9 +103,4 @@ This project is for educational and research purposes only. Please consult medic
 Made with ❤️ by Muhammad Bilal Rafique
 LinkedIn: linkedin.com/in/bilal-rafique5
 
-```
 
----
-
-Let me know if you'd like a **fancy badge header**, live demo link, or want to rename `MediMind` to something else!
-```
