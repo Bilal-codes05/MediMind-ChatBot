@@ -50,7 +50,7 @@ medical-chatbot/
 
 ### 1. Clone the Repo
 
-git clone https://github.com/yourusername/medical-chatbot.git
+git clone https://github.com/Bilal-codes05/medical-chatbot.git
 cd medical-chatbot
 
 
@@ -71,7 +71,6 @@ Create a `.env` file in the root:
 
 
 GROQ_API_KEY=your_groq_api_key
-HF_TOKEN=your_huggingface_api_key
 
 
 ### 4. Generate Vector Store
