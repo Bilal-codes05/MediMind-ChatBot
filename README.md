@@ -1,8 +1,4 @@
-Here you go! 🎯 Here's a professional and clean `README.md` for your **Medical Chatbot using LangChain, FAISS, Groq LLM, and Streamlit**:
 
----
-
-```markdown
 # 🧠 MediMind - Medical Chatbot
 
 MediMind is an AI-powered medical chatbot that uses **LangChain**, **FAISS**, and **Groq LLM** to answer medical questions based on uploaded PDF documents. It supports **RAG (Retrieval-Augmented Generation)** and offers a friendly chat interface via **Streamlit**.
@@ -22,7 +18,7 @@ MediMind is an AI-powered medical chatbot that uses **LangChain**, **FAISS**, an
 
 ## 📁 Project Structure
 
-```
+
 
 medical-chatbot/
 ├── data/                       # Folder for raw medical PDFs
@@ -35,7 +31,7 @@ medical-chatbot/
 ├── requirements.txt
 └── README.md
 
-````
+
 
 ---
 
@@ -49,57 +45,45 @@ medical-chatbot/
 6. Query runs through LangChain `RetrievalQA` + Groq LLM
 7. Returns accurate answers with document sources
 
----
 
 ## 🚀 Getting Started
 
 ### 1. Clone the Repo
 
-```bash
 git clone https://github.com/yourusername/medical-chatbot.git
 cd medical-chatbot
-````
+
 
 ### 2. Install Dependencies
 
-```bash
+
 pip install -r requirements.txt
-```
+
 
 or with Pipenv:
 
-```bash
+
 pipenv install
-```
 
 ### 3. Setup Environment
 
 Create a `.env` file in the root:
 
-```env
+
 GROQ_API_KEY=your_groq_api_key
 HF_TOKEN=your_huggingface_api_key
-```
+
 
 ### 4. Generate Vector Store
 
-```bash
+
 pipenv run python vector_create.py
-```
+
 
 ### 5. Run Streamlit App
-
-```bash
 pipenv run streamlit run medicalbot.py
-```
 
----
 
-## 📷 Screenshot
-
-![MediMind Chatbot Screenshot](preview.png) <!-- Add this if you want a screenshot -->
-
----
 
 ## 🛡️ Notes
 
